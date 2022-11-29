@@ -23,7 +23,7 @@ document.getElementById('btnLogin').addEventListener("click", () => {
         })
 });
 
-const verifyUser0 = async (data) => {
+const verifyUser = async (data) => {
     for($i = 0; $i < data.users.length; $i++){
         let user = data.users.user; // json user data from your api
         let status = data.users.status; // json status of user data from your api
